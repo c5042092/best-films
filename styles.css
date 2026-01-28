@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color:rgb(248, 246, 246);
+}
+
+a {
+    color:cornflowerblue;
+}
+
+a:hover {
+    color:rgb(59, 59, 250);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.table-container {
+    margin: auto;
+    max-width: 70%;
+}
+
+.movie-banner {
+    margin:auto;
+    max-width: 60%;
+    border: 2px;
+    border-color: red;
+}
+
+.movie-banner > img {
+    width: fit-content;
+    height: 550px;
+}
+
+.movie-info {
+    margin: auto;
+    max-width: 60%;
+}
+
+.movie-info > p {
+    text-align: justify;
+}
+
+.trailer {
+    margin: auto;
+}
